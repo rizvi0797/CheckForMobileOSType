@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Goto App Download Page</title>
+    <script>
+    window.onload = function() {
+
+        if(/Android/.test(navigator.userAgent))
+        {
+            window.location = "https://play.google.com/store/apps/details?id=com.DesignTechSystemsPvtLtd.PowerfulLife&hl=en_IN&gl=US"
+        }
+        else if (/iPhone|iPad|iPod/.test(navigator.userAgent))
+        {
+            window.location = "https://apps.apple.com/us/app/powerfulife/id1582408240"
+        }
+        else
+        {
+            window.location = "https://powerfulife.in/"
+        }
+    }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
